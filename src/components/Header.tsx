@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Moon, Sun, Monitor, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
-import logo from "../assets/images/team/logo.png";
+import logo from "../assets/images/team/Logo.png";
 
 const Header = () => {
   const { theme, setTheme } = useTheme();
