@@ -254,8 +254,7 @@ const ModuleSection = ({
                         </div>
                         <div className="flex-1 mx-4">
                           <div className="bg-white dark:bg-slate-700 rounded px-3 py-1 text-xs text-muted-foreground">
-                            https://corehms.netlify.app
-                            /dashboard/{id}
+                            https://corehms.netlify.app/
                           </div>
                         </div>
                       </div>
