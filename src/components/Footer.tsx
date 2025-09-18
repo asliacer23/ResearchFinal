@@ -1,6 +1,6 @@
 import { Heart, Facebook, Instagram, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logo from "../assets/images/team/logo.png";
+import logo from "../assets/images/team/Logo.png";
 
 
 const Footer = () => {
