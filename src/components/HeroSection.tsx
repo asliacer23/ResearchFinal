@@ -58,14 +58,22 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button size="lg" className="group px-8 py-6 text-lg font-semibold shadow-medium hover:shadow-strong transition-smooth">
+            <Button
+              size="lg"
+              className="group px-8 py-6 text-lg font-semibold text-white
+                        bg-black/30 backdrop-blur-md border border-white/15
+                        shadow-lg rounded-2xl"
+            >
+            <a
+              href="https://corehms.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-white no-underline"
+            >
               Explore Our System
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            
-            <Button variant="outline" size="lg" className="px-8 py-6 text-lg font-semibold">
-              View Live Demo
-            </Button>
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
+          </Button>
           </div>
 
           {/* Stats */}
