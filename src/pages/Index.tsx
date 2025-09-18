@@ -73,7 +73,7 @@ const Index = () => {
     {
       id: 'sprs',
       title: 'Smart Patient Registration System (SPRS)',
-      description: 'Streamline patient intake with intelligent registration workflows, automated data validation, and seamless integration with existing hospital systems.',
+      description: 'The Smart Patient Registration System provides a centralized and efficient process for registering new patients, collecting their personal, contact, insurance, and emergency contact details.',
       features: ['Patient search and profile lookup', 'Complete registration form', 'Data validation and required field checks', 'Sync with hospital database'],
       phoneImages: [ phone1, phone2, phone3, phone4 ],
       webImages: [web1, web2, web3],
@@ -82,7 +82,7 @@ const Index = () => {
     {
       id: 'ass',
       title: 'Appointment and Scheduling System (ASS)',
-      description: 'Advanced scheduling platform with AI-powered optimization, automated reminders, and comprehensive calendar management for healthcare providers.',
+      description: 'This module manages patient appointment bookings and doctor availability schedules. It allows staff to set, view, and update appointments while preventing conflicts.',
       features: ['Appointment booking form', 'Real-time doctor availability', 'Appointment list by date', 'Automated conflict checks'],
       phoneImages: [ phone5, phone6, phone7, phone8],
       webImages: [web4, web5, web6],
@@ -91,7 +91,7 @@ const Index = () => {
     {
       id: 'tocs',
       title: 'Telehealth and Outpatient Care System (TOCS)',
-      description: 'Complete telemedicine solution with secure video consultations, digital prescriptions, and integrated care coordination for remote patient management.',
+      description: 'The Telehealth and Outpatient Care System enables remote consultations and follow-up care for patients who do not require on-site treatment.',
       features: ['Video consultation room', 'Virtual schedule management', 'Medical records access', 'Follow-up tracking'],
       phoneImages: [phone9, phone10, phone11, phone12, phone13, phone14],
       webImages: [web7, web8, web9, web10],
@@ -100,7 +100,7 @@ const Index = () => {
     {
       id: 'eerts',
       title: 'Emergency and ER Triage System (EERTS)',
-      description: 'Critical care coordination with intelligent triage algorithms, real-time bed tracking, and emergency response optimization for life-saving decisions.',
+      description: 'This system handles emergency patient assessment and prioritization upon arrival. It allows frontline staff to record vital signs and assign triage categories.',
       features: ['Emergency patient registration', 'Triage level classification', 'Vital signs input', 'ER queue monitoring'],
       phoneImages: [phone15, phone16, phone17, phone18, phone19],
       webImages: [web11, web12, web13, web14, web15],
@@ -109,7 +109,7 @@ const Index = () => {
     {
       id: 'ibms',
       title: 'Inpatient and Bed Management System (IBMS)',
-      description: 'Comprehensive bed management with occupancy tracking, patient flow optimization, and automated discharge planning for efficient hospital operations.',
+      description: 'The Inpatient and Bed Management System provides real-time tracking of bed availability, patient admissions, and discharges.',
       features: ['Real-time bed status', 'Room and department tracking', 'Patient admission form', 'Pending discharge list'],
       phoneImages: [phone20, phone21, phone22, phone23, phone24],
       webImages: [web16, web17, web18, web19, web20],
